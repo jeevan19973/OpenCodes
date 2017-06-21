@@ -1,0 +1,18 @@
+1. Instead of ssh, mosh would be preferable. ( As ssh uses tcp whereas mosh uses udp,
+   hence the connection won't be broken at any time ).
+
+2. The coding format would be good if we restrict each line to only 85 characters.
+
+3. Tmux - helps to maintain multiple terminals in a single session, and we can
+   restore this session later on. Multiple terminals in one window 
+   helps to do the work simply rather than opening multiple windows.
+
+4. Vim and emacs are the best editors for coding.
+
+5. Learning shortcuts in these editors saves a lot of time.
+
+6. When we are currently in a particular event, (in linux), if we press Ctrl + z,
+   the event goes to background, and we can do another work. Again pressing "fg",
+   brings it to the the event.
+
+7. vimdiff is a good command to compare to files, the gui is quite similar to git.
