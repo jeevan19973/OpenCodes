@@ -30,7 +30,7 @@ function! PrintGrokUrl()
 python << EOF
 import vim
 name = vim.eval('expand("<cword>")')
-print "http://sw-tools.aristanetworks.com:8080/source/search?q=%s" % name
+print "http://adflkjalkfdjalfskjasfl;kj/source/search?q=%s" % name
 EOF
 endfunction
 map <F4> :call PrintGrokUrl()<CR>
