@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+#define ll long long
+#define vl vector<ll>
+#define fi first
+#define se second
+#define mp(a,b) make_pair(a,b)
+#define pb(x) push_back(x)
+#define mod	1000000007
+#define rep(i,n) for( int i = 0; i < n; i++ )
+#define rrep(i,n) for(int i = n - 1 ; i >= 0 ; i--)
+#define myrep(i,a,b) for( int i = a; i <= b; i++ )
+
+using namespace std ;
+
+ll binPow(ll a ,ll b ,ll Mo){
+    ll ans = 1;
+    for (; b; b >>= 1, a = a * a % Mo)
+        if (b&1) ans = ans * a % Mo;
+    return ans;
+}
+
+int main()
+	{
+		ios_base::sync_with_stdio(false); cin.tie(0);
+		
+		return 0 ;
+	}
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>acpp</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
