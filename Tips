@@ -16,3 +16,9 @@
    brings it to the the event.
 
 7. vimdiff is a good command to compare to files, the gui is quite similar to git.
+
+8. junegunn/vim-plug is a good extension for plugins.
+
+9. wincent/command-t is a good plugin for huge file searching and opening them within the same terminal.
+
+10 Lid is a vim utility that can be used for searching of words through files.
