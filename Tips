@@ -22,3 +22,5 @@
 9. wincent/command-t is a good plugin for huge file searching and opening them within the same terminal.
 
 10 Lid is a vim utility that can be used for searching of words through files.
+
+11 SSH login without password : automatic login from host A / user A into host B / user B. 
